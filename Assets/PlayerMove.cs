@@ -8,6 +8,16 @@ public class PlayerMove : MonoBehaviour {
 	void Start () {
 		
 	}
+
+	public static Vector2 MouseIntMove() {
+		float x = Input.GetAxis("Horizontal");	
+		float y = Input.GetAxis("Vertical");	
+
+		x = x > 0 ? 1 : x < 0 ? -1 : 0;
+		y = y > 0 ? 1 : y < 0 ? -1 : 0;
+
+		return new Vector2(x,y);
+	}
 	
 	// Update is called once per frame
 	void Update () {
@@ -15,12 +25,8 @@ public class PlayerMove : MonoBehaviour {
 		if ( Time.frameCount % 10 != 0) {
 			return;
 		}
-		float x = Input.GetAxis("Horizontal");	
-		float y = Input.GetAxis("Vertical");	
 
-		x = x > 0 ? 1 : x < 0 ? -1 : 0;
-		y = y > 0 ? 1 : y < 0 ? -1 : 0;
-
-		transform.position = new Vector3(transform.position.x + x, transform.position.y + y,transform.position.z);
+		Vector2 mouseMove = MouseIntMove();
+		transform.position = new Vector3(transform.position.x + mouseMove.x, transform.position.y + mouseMove.y,transform.position.z);
 	}
 }

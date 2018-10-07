@@ -17887,7 +17887,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4807169491792928, guid: dbfb3ad87caf845249cf21e8171c6b69, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -10.030133
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4807169491792928, guid: dbfb3ad87caf845249cf21e8171c6b69, type: 2}
       propertyPath: m_LocalRotation.x
@@ -17970,7 +17970,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4807169491792928, guid: dbfb3ad87caf845249cf21e8171c6b69, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -10.030133
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4807169491792928, guid: dbfb3ad87caf845249cf21e8171c6b69, type: 2}
       propertyPath: m_LocalRotation.x
@@ -18016,7 +18016,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4807169491792928, guid: dbfb3ad87caf845249cf21e8171c6b69, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -10.030133
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4807169491792928, guid: dbfb3ad87caf845249cf21e8171c6b69, type: 2}
       propertyPath: m_LocalRotation.x
@@ -18062,7 +18062,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4807169491792928, guid: dbfb3ad87caf845249cf21e8171c6b69, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -10.030133
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4807169491792928, guid: dbfb3ad87caf845249cf21e8171c6b69, type: 2}
       propertyPath: m_LocalRotation.x
@@ -18103,9 +18103,10 @@ GameObject:
   - component: {fileID: 2048402442}
   - component: {fileID: 2048402441}
   - component: {fileID: 2048402443}
+  - component: {fileID: 2048402444}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18223,5 +18224,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3a55adfdca06a4ed09bda8ef24a85fef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2048402444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2048402438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da02d60f00ac847c5927a2ae87362f5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
